@@ -101,3 +101,9 @@ h1 {
     max-height: 75vh;
     border-radius: 20px;
 }
+
+#spotify-player {
+    width: 300px;
+    height: 80px;
+    margin-top: 20px;
+}

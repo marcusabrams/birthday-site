@@ -3,7 +3,6 @@ const openingScreen = document.querySelector(".opening-screen");
 const birthdayScreen = document.querySelector(".birthday-screen");
 const surpriseButton = document.querySelector("#surprise-button");
 const photoScreen = document.querySelector(".photo-screen");
-const daylightSong = document.querySelector("#daylight-song");
 
 bear.addEventListener("click", function() {
     openingScreen.style.display = "none";
@@ -22,6 +21,5 @@ bear.addEventListener("click", function() {
 surpriseButton.addEventListener("click", function() {
     birthdayScreen.style.display = "none";
     photoScreen.style.display = "flex";
-    daylightSong.play();
 });
 
